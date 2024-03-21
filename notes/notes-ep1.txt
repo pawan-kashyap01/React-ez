@@ -1,0 +1,44 @@
+#Parcel - https://parceljs.org/
+
+- Dev Build 
+- Local server
+- HMR (Hot Module Replacement) : allowing developers to see the changes in real-time as they edit the code. 
+- File Watching algo 
+- Caching -faster builds
+- Image optimisation
+- Bundling
+- compressing
+- consistent hashing
+- code splitting
+- differential bundling
+- diagnostics
+- error handling
+- https suppport
+- tree shaking: removes unused code
+- diffrent dev and prod bundles
+
+
+
+
+// Ep-1
+// const head = React.createElement('h1',
+//  {id: 'head', style : {border: "1px solid red"}},
+//   "This is the text by react.");
+
+// const parent = React.createElement('div',
+//  {id: 'parent', style : {border: "1px solid green"}},
+//    [
+//         React.createElement('h1',
+//             {id: 'head', style : {border: "1px solid red"}},
+//             "child 35678764s"
+//             ),
+//         React.createElement('h1',
+//             {id: 'head', style : {border: "1px solid red"}},
+//             "TEXT 2."
+//             ),
+//    ] );
+
+// console.log(parent);
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// console.log(root);
+// root.render(parent);

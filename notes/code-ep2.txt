@@ -1,0 +1,7 @@
+const jsxHeading = <h1 id="headinginjsx">Heading in jsx.</h1>
+console.log("____",jsxHeading);
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(jsxHeading);
+
+
+
