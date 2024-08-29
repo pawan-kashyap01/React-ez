@@ -11,4 +11,4 @@ const parent = React.createElement("div", {id: "parent"}, children);
 
 console.log(heading) // Just a javascript object
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(parent); // Converts the js object into the browser understandable format.
+root.render(parent); // Converts the js object into the browser understandable format and replace(not append) on the root element.
