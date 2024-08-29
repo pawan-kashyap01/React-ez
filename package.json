@@ -1,0 +1,20 @@
+{
+  "name": "react-ez",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pawan-kashyap01/React-ez.git"
+  },
+  "keywords": ["react"],
+  "author": "Pawan Kashyap",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pawan-kashyap01/React-ez/issues"
+  },
+  "homepage": "https://github.com/pawan-kashyap01/React-ez#readme"
+}
