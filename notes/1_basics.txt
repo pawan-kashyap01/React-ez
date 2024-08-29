@@ -1,0 +1,12 @@
+React is just a js library witten by facebook.
+React is a JavaScript library for building user interfaces.
+We can add react to our project by using its cdn link.
+We have two libraries of react i.e.
+1. react -> this is the core js library.
+2. react-dom -> this is useful for the dom operations.
+
+React just not works on browser but on mobile also using react-native.
+
+
+
+
