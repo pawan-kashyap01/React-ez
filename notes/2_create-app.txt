@@ -1,0 +1,28 @@
+We have two types of dependencies-> 
+
+1. Dependencies
+What They Are: These are packages that your project needs to run in production. They are essential for the application to function correctly.
+Installation: When you or someone else installs your project (e.g., via npm install), all dependencies listed under "dependencies" in your package.json file are installed.
+Usage: For example, if you're building a web application using Express, you would list Express as a dependency because your app needs it to run.
+Example:
+{
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
+
+2. DevDependencies
+What They Are: These are packages that are only necessary during the development of your project. They are not needed in the production environment where the application is running.
+Installation: These are installed only when running npm install in a development environment. When installing with the --production flag (npm install --production), devDependencies are skipped.
+Usage: DevDependencies typically include tools for testing, transpiling, and linting code. For example, if you're using Babel to transpile your JavaScript, or Jest for testing, these would be devDependencies.
+Example:
+{
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "babel-cli": "^6.26.0"
+  }
+}
+
+Key Points:
+Dependencies are for the code that runs in production.
+DevDependencies are for tools and libraries needed during development, testing, and building the project.
