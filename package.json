@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
-  },
+  },  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pawan-kashyap01/React-ez.git"
