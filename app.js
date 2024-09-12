@@ -3,9 +3,7 @@ import reactDom from 'react-dom';
 import ReactDOM from "react-dom/client";
 
 
-// React.createElement  -> This is basically a js object.
-const heading =  React.createElement("h1", {id: "heading"}, "This is a heading.")
-console.log('heading: ', heading);
+
 
 
 // JSX -> jsx is html-like or XML-like syntax (jsx is not writing html in js)
@@ -15,8 +13,20 @@ console.log('heading: ', heading);
 const jsxHeading = (<h1 id="heading" className='head'>
     Heading using jsx
     </h1>);
-console.log('jsxHeading: ', jsxHeading);
+
+const DescriptionComponent = ()=>{
+    return <p>This is Description</p>
+}
+
+const HeadingComponent = () =>{
+    return <div id="container">
+        <h1>Heading</h1>
+        {jsxHeading}
+        {/* This is component composition having a component inside another component. */}
+        <DescriptionComponent/>
+    </div>
+}
 
 const root = reactDom.createRoot(document.getElementById("root"));
 
-root.render(heading);
+root.render(<HeadingComponent />);
